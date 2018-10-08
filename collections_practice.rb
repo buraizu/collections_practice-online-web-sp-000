@@ -4,4 +4,8 @@ end
 
 def sort_array_desc(array)
   array.sort{|x, y| y <=> x}
-end 
+end
+
+def sort_array_char_count(array)
+  array.sort_by!{|element| element.length}
+end
