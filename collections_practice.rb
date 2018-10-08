@@ -34,5 +34,6 @@ def find_a(array)
     if element[0] == 'a' || element[0] == 'A'
       a_array << element
     end
+  end
     a_array
 end
