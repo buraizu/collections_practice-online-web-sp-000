@@ -45,3 +45,12 @@ def sum_array(array)
   end
   sum
 end
+
+def add_s(array)
+  s_array = []
+  array.each do |element|
+    s_array << element + 's'
+  end
+  s_array[1].chop!
+  s_array
+end
